@@ -1,19 +1,10 @@
-{% extends "master.html" %} {% block content %}
-<div class="main">
-    <div class="quirky-bg" style="background-image: url(/media/default_pattern.png)">
-    </div>
-    <nav class="fixed">
-        <div class="max-width-container">
-            <a href="/" class="logo">
-                <img src="/media/logo.png" alt="U9H Logo" />
-            </a>
-            <div class="links">
-                {% for item in config.extra.menu %}
-                <a href="{{ item.url }}">
-                    {{ item.name }}
-                </a>
-                {% endfor %}
-            </div>
+{% extends "master.html" %} 
+
+{% block content %}
+    <div class="w-100 ph4 center mw8 vh-100 items-center flex">
+        <div class="flex-column">
+            <h1 class="f1 yellow mb3">More than just design. Understanding.</h1>
+            <p class="near-white f3 mt3">We are a fully-digital studio committed to open software.</p>
         </div>
-    </nav>
+    </div>
 {% endblock content %}

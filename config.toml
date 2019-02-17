@@ -19,4 +19,4 @@ url = "/"
 
 [[extra.menu]]
 name = "Blog"
-url = "//blog.u9h.design"
+url = "/blog"
