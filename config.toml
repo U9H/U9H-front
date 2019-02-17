@@ -16,3 +16,7 @@ build_search_index = true
 [[extra.menu]]
 name = "Home"
 url = "/"
+
+[[extra.menu]]
+name = "Blog"
+url = "//blog.u9h.design"
